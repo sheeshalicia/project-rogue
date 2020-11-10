@@ -1,0 +1,154 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'montserrat', sans-serif;
+  color: #00000;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 25px;
+  overflow: auto;
+  width: 1250px;
+}
+
+.half-width {
+  float: left;
+  width: 625px;
+}
+
+.third-width {
+  float: left;
+  width: 375px;
+  height: auto;
+  overflow: auto;
+}
+
+/***** HEADER *****/
+
+header h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #77a466;
+  font: montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li{
+display:inline-block;
+padding-right: 25px;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-left: 30px;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header img {
+  clear: both;
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466
+}
+
+/***** WELCOME *****/
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+p {
+font-size: 16px;
+line-height: 25px;
+padding-right: 50px;
+}
+
+/***** SPECIALS COLUMN *****/
+
+#specials {
+  border: 2px solid #f0eef0;
+  border-left: none;
+  height: 210px;
+}
+
+h3 {
+font-size: 12px;
+line-height: 25px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -40px;
+  line-height: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #77a466;
+}
+
+/***** REVIEWS COLUMN *****/
+
+#reviews {
+  border: 2px solid #f0eef0;
+  border-left: none;
+  padding-left: 25px;
+  padding-top: 10px
+  height: 210px;
+}
+
+/***** CONTACT COLUMN *****/
+
+#contact {
+  border: 2px solid #f0eef0;
+  border-left: none;
+  border-right: none;
+  padding-left: 25px;
+  height: 210px;
+}
+/***** FOOTER *****/
+
+#footer h2{
+
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding-left: 25px;
+  text-align: center;
+}
+
+#footer span {
+  font-family: 'galada', cursive;
+  font-size: 16px;
+  color: #77a466;
+  font-weight: normal;
+}
